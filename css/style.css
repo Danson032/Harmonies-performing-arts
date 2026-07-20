@@ -243,3 +243,23 @@ DARK MODE
 .dark .logo h2 {
   color: var(--secondary);
 }
+
+/* Theme Toggle Button */
+#theme-btn {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--black);
+  transition: color 0.3s ease;
+}
+
+/* Moon icon in light mode */
+#theme-btn i {
+  color: var(--black);
+}
+
+/* Sun icon in dark mode */
+.dark #theme-btn i {
+  color: #ffffff;
+}
