@@ -47,61 +47,231 @@
   </head>
 
   <body>
+    <!-- Skip to Content -->
+    <a href="#main-content" class="skip-link">Skip to Content</a>
+
+    <!-- ================= HEADER ================= -->
+
     <header>
-      <!--================ NAV =================-->
       <nav class="navbar">
         <div class="logo">
-          <img src="images/logo.jpg" alt="Logo" />
+          <img src="images/logo.jpg" alt="Harmonies Performing Arts Logo" />
 
-          <h2>Harmonies</h2>
+          <h2>Harmonies Performing Arts</h2>
         </div>
 
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="nav-icons">
-          <button id="theme-btn">
+          <button id="theme-btn" aria-label="Toggle Dark Mode">
             <i class="fa-solid fa-moon"></i>
           </button>
 
-          <div class="menu-btn">
+          <div class="menu-btn" aria-label="Open Navigation">
             <i class="fa-solid fa-bars"></i>
           </div>
         </div>
       </nav>
     </header>
 
-    <!--================ HERO =================-->
+    <main id="main-content">
+      <!-- ================= HERO ================= -->
 
-    <section class="hero">
-      <img
-        src="images/image.png"
-        alt="Harmonies Performing Arts"
-        class="hero-image"
-      />
+      <section class="hero" id="home">
+        <img
+          src="images/image.png"
+          alt="Harmonies Performing Arts"
+          class="hero-image"
+        />
 
-      <div class="overlay"></div>
+        <div class="overlay"></div>
 
-      <div class="hero-content">
-        <h1>Inspiring Hearts Through Music & Performing Arts</h1>
+        <div class="hero-content">
+          <span class="hero-subtitle">
+            Welcome to Harmonies Performing Arts
+          </span>
 
-        <p>
-          Empowering talent, building confidence, and creating unforgettable
-          performances.
-        </p>
+          <h1>Inspiring Hearts Through Music & Performing Arts</h1>
 
-        <div class="hero-buttons">
-          <a href="#" class="btn">Join Us</a>
-          <a href="#" class="btn btn-outline">Learn More</a>
+          <p>
+            We nurture talent, inspire creativity, and transform lives through
+            music, dance, drama, and artistic excellence.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#about" class="btn"> Explore More </a>
+
+            <a href="#contact" class="btn btn-outline"> Join Us </a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- ================= ABOUT ================= -->
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="about-image">
+            <img src="images/about.jpg" alt="About Harmonies" />
+          </div>
+
+          <div class="about-content">
+            <span class="section-title"> ABOUT US </span>
+
+            <h2>Discover the Harmony Behind Every Performance</h2>
+
+            <p>
+              Harmonies Performing Arts is a creative community committed to
+              developing talent in music, dance, drama and creative arts.
+              Through passion, discipline and teamwork, we inspire performers to
+              reach their full potential while enriching our communities.
+            </p>
+
+            <div class="about-grid">
+              <div class="about-box">
+                <i class="fa-solid fa-bullseye"></i>
+
+                <div>
+                  <h3>Mission</h3>
+
+                  <p>
+                    Empower individuals through quality performing arts
+                    education while promoting creativity and excellence.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-box">
+                <i class="fa-solid fa-eye"></i>
+
+                <div>
+                  <h3>Vision</h3>
+
+                  <p>
+                    To become one of the leading performing arts organizations
+                    recognized nationally and beyond.
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-box">
+                <i class="fa-solid fa-heart"></i>
+
+                <div>
+                  <h3>Core Values</h3>
+
+                  <p>
+                    Passion • Creativity • Integrity • Excellence • Teamwork
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================ FOOTER =================-->
+
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo & About -->
+          <div class="footer-box">
+            <img
+              src="images/logo.jpg"
+              alt="Harmonies Logo"
+              class="footer-logo"
+            />
+
+            <h2>Harmonies Performing Arts</h2>
+
+            <p>
+              Inspiring hearts through music, dance, drama and artistic
+              excellence.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-box">
+            <h3>Quick Links</h3>
+
+            <ul>
+              <li><a href="#home">Home</a></li>
+
+              <li><a href="#about">About</a></li>
+
+              <li><a href="#services">Programs</a></li>
+
+              <li><a href="#gallery">Gallery</a></li>
+
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-box">
+            <h3>Contact</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</p>
+
+            <p>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+254 725 865087">+254 725 865087</a>
+            </p>
+
+            <p>
+              <i class="fa-solid fa-envelope"></i
+              ><a href="mailto:johnalphooo@gmail.com">
+                info@harmoniesperformingarts.com
+              </a>
+            </p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="footer-box">
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a href="#" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/search?q=harmonies%20performing%20arts&t=1784911584374"
+                aria-label="TikTok"
+              >
+                <i class="fab fa-tiktok"></i>
+              </a>
+
+              <a href="#" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="year"></span> Harmonies Performing Arts. All Rights
+            Reserved.
+          </p>
+
+          <p>Designed & Developed by <strong>Eng. Danson Nganga</strong></p>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
